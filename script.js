@@ -3,6 +3,7 @@ let rock = "rock";
 let paper = "paper";
 let scissors = "scissors";
 let computerChoice;
+let humanChoice;
 
 
 function getComputerChoice() {
@@ -18,4 +19,10 @@ function getComputerChoice() {
             return computerChoice = scissors;
             break;
     }
+}
+
+function getHumanChoice() {
+    humanChoice = prompt("Choose rock, paper or scissors").toLowerCase();
+    console.log("You chose " + humanChoice);
+    return humanChoice;
 }
