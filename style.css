@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    background-color: lightblue;
+    width: 30em;
+    height: 25em;
+    border-radius: 1em;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    height: 8em;
+    align-items: center;
+}
+#startBtn {
+    width: 50%;
+    height: 3em;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    height: 8em;    
+    align-items: center;
+}
+.buttons button {
+    background-color: rgb(46, 202, 202);
+    color: black;
+    padding: 1em;
+    border: none;
+    border-radius: 0.5em;
+}
+.roundResult, .humanScore, .computerScore, .matchResult {
+    background-color: aliceblue;
+}
